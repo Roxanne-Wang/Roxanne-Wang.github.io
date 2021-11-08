@@ -1,0 +1,99 @@
+body {
+	background: rgb(245, 243, 238); font-family: "Times New Roman", sans-serif;
+}
+#wrap {
+	overflow: hidden; margin-top: 10mm; margin-right: auto; margin-left: auto; max-width: 240mm;
+}
+a:link {
+	background: none; color: rgb(0, 0, 238); text-decoration: none;
+}
+a:active:link {
+	background: none; color: rgb(238, 0, 0); text-decoration: none;
+}
+a:active:visited {
+	background: none; color: rgb(238, 0, 0); text-decoration: none;
+}
+a:visited {
+	background: none; color: rgb(0, 0, 238); text-decoration: none;
+}
+a:hover:link {
+	text-decoration: underline;
+}
+a:hover:visited {
+	text-decoration: underline;
+}
+a:link img {
+	
+}
+a:visited img {
+	
+}
+a img {
+	color: white;
+}
+.hideme {
+	display: none;
+}
+#intro {
+	display: block;
+}
+#intro .name {
+	text-align: left; font-family: "Time News Roman", serif;
+}
+#intro .title {
+	display: block;
+}
+#intro .inst {
+	margin-bottom: 10px; display: block;
+}
+#intro .contact {
+	display: block;
+}
+td.pjframe {
+	width: 25%;
+}
+img.shadowimg {
+	border-width: 1px 2px 2px 1px; border-color: rgb(192, 192, 192) rgb(90, 90, 90) rgb(90, 90, 90) rgb(192, 192, 192); margin-right: 10px; box-shadow: 2px 2px 6px 1px threedshadow;
+}
+img.pjthumbnail {
+	border-width: 1px 2px 2px 1px; border-color: rgb(192, 192, 192) rgb(90, 90, 90) rgb(90, 90, 90) rgb(192, 192, 192); padding: 10px 0px 10px 10px; width: 80%; display: block;
+}
+.authors {
+	text-align: center; margin-bottom: 10px;
+}
+a.author {
+	padding: 0px 0.5em;
+}
+.institutions {
+	text-align: center; margin-bottom: 10px;
+}
+a.institution {
+	padding: 0px 0.5em;
+}
+.conference {
+	text-align: center; font-style: italic;
+}
+td.padding {
+	width: 0.5em;
+}
+#footer {
+	color: rgb(32, 128, 64); font-size: small; float: right;
+}
+#publication {
+	
+}
+.pubyear {
+	color: rgb(128, 128, 128); font-size: 20px; font-weight: bold;
+}
+.pagetitle {
+	color: rgb(0, 0, 0); font-size: 28px;
+}
+.articleTitle {
+	color: rgb(0, 0, 0); font-size: 18px; font-weight: bold;
+}
+.articleAuthor {
+	color: rgb(0, 0, 0); font-size: 18px; font-style: italic;
+}
+.articlemisc {
+	color: rgb(0, 0, 0); font-size: 16px;
+}

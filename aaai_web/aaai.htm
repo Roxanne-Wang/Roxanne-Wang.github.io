@@ -1,0 +1,276 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0061)http://staff.ustc.edu.cn/~xjchen99/FoldingCartons.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<TITLE>FoldingCartons</TITLE> 
+<STYLE type="text/css">
+.ys01 {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #57524C;
+}
+.ys02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 {
+}
+.ys2 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 sup {
+	color: #57524C;
+}
+.ys3 {
+	font-weight: bold;
+}
+.ys3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys3 {
+	text-align: center;
+	color: #57524C;
+}
+.ys3 {
+}
+.ys4 {
+	text-align: center;
+}
+.ys2 .ys2 {
+	color: #57524C;
+}
+.ys5 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys7 {
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.teaser {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: left;
+}
+.text {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: justify;
+	font-weight: normal;
+}
+.title1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6293A2;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+}
+.text2 {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	font-weight: normal;
+}
+.title1 .teaser {
+	text-align: justify;
+}
+.copyright {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: right;
+}
+.copy {
+	font-family: "Times New Roman", Times, serif;
+	text-align: right;
+	color: #57524C;
+}
+.download {
+}
+.download {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download {
+	font-weight: bold;
+}
+.download {
+	color: #6293A2;
+}
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.teaser {
+	text-align: justify;
+}
+.copy1 {
+	text-align: right;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.STYLE17 {font-size: medium}
+.style1 {	FONT-FAMILY: "Times New Roman", Times, Verdana, Arial, Helvetica, sans-serif ;
+	FONT-SIZE: 18px
+}
+</STYLE>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18538"></HEAD> 
+<BODY>
+<TABLE width="1044" align="center" background="">
+  <TBODY>
+  <TR>
+    <TD width="1044" height="3355" align="center" valign="top">
+      <P>&nbsp;</P>
+      <TABLE width="900">
+        <TBODY>
+        <TR>
+          <TD>
+            <P align="center" class="ys01">Task-Independent Knowledge Makes for Transferable Representations for Generalized Zero-Shot Learning</P>
+            <P align="center" class="ys2">Chaoqun Wang, Xuejin Chen*, Shaobo Min, Xiaoyan Sun, Houqiang Li</P>
+         
+
+            <P class="ys2"><A href="https://sds.ustc.edu.cn/"
+            target="_new">School of Data Science</A></P>
+            <P class="ys2"><A href="http://leinao.ustc.edu.cn/"
+            target="_new">National Engineering Laboratory for Brain-inspired Intelligence Technology and Application</A></P>
+            <P  class="ys2"><A href="http://www.ustc.edu.cn/" 
+            target="_new">University of Science and Technology of China</A></P>
+            <P class="ys2">The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)</P></TD></TR>
+
+
+
+        <TR>
+          <TD>
+            <P class="title1">Abstract:</P></TD></TR>
+        <TR>
+          <TD>
+            <P class="text2"> Generalized Zero-Shot Learning (GZSL) targets recognizing new categories by learning transferable image representations. Existing methods find that, by aligning image representations with corresponding semantic labels, the semantic-aligned representations can be transferred to unseen categories. However, supervised by only seen category labels, the learned semantic knowledge is highly task-specific, which makes image representations biased towards seen categories. In this paper, we propose a novel Dual-Contrastive Embedding Network (DCEN) that simultaneously learns task-specific and task-independent knowledge via semantic alignment and instance discrimination. First, DCEN leverages task labels to cluster representations of the same semantic category by cross-modal contrastive learning and exploring semantic-visual complementarity. Besides task-specific knowledge, DCEN then introduces task-independent knowledge by attracting representations of different views of the same image and repelling representations of different images. Compared to high-level seen category supervision, this instance discrimination supervision encourages DCEN to capture low-level visual knowledge, which is less biased toward seen categories and alleviates the representation bias. Consequently, the task-specific and task-independent knowledge jointly make for transferable representations of DCEN, which obtains averaged 4.1% improvement on four public benchmarks.</P></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><IMG width="600" alt="AutomaticalResult" src="figures/moti.png"></DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><SPAN class="teaser">Figure 1:</SPAN> <SPAN class="text">Motivation of this paper. (a) Existing methods focus on using task labels to learn semantic-aligned representations, which can be transferred to unseen categories. (b) Besides, this paper further learns task-independent knowledge via instance discrimination supervision, which significantly improves the representation transferability.</SPAN></DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+
+        <TR>
+          <TD>
+            <P class="title1">Results:</P></TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><IMG width="600" alt="AutomaticalResult" src="figures/lambda.PNG"></DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><SPAN class="teaser">Figure 2:</SPAN> <SPAN class="text">Effects of different $\lambda_1$ and $\lambda_2$ for $\mathcal{L}_{id}$ and $\mathcal{L}_{sp}$, respectively.</SPAN></DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><IMG width="650" alt="OptimizationResult" src="figures/aug.PNG"></DIV></TD></TR>
+        <TR>
+          <TD>
+            <SPAN class="teaser">Table 1:</SPAN><SPAN class="text"> <SPAN class="text2">Evaluating different visual augmentations on CUB by successively adding operations. When a certain operation brings positive effects, it is retained, otherwise, it is removed.
+            </SPAN></SPAN></DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <DIV align="center"><IMG width="350" alt="LayoutOptimizationResult" src="figures/comp.png"></DIV></TD></TR>
+        <TR>
+          <TD
+            <SPAN class="teaser">Table 2:</SPAN><SPAN 
+            class="text"> <SPAN class="text2">Effects of each component of DCEN on CUB.
+            </SPAN></SPAN></DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+        <TD>
+            <DIV align="center"><IMG width="1000" alt="LayoutOptimizationResult" src="figures/final.PNG"></DIV></TD></TR>
+        <TR>
+          <TD>
+            <SPAN class="teaser">Table 3:</SPAN><SPAN
+            class="text"> <SPAN class="text2">Results of GZSL on four classification benchmarks. Generative methods (GEN) utilize extra synthetic unseen domain data for training.
+
+            </SPAN></SPAN></DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+
+       
+
+        <TR>
+          <TD><SPAN class="title1">Acknowledgements:</SPAN></TD></TR>
+        <TR>
+          <TD>
+            <P class="text2"> This work was supported by the National Key R&D Program of China with grant No. 2020AAA0108602, National Natural Science Foundation of China (NSFC) under Grants 61632006 and 62076230, and Fundamental Research Funds for the Central Universities under Grants WK3490000003.
+			</P></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+       
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD><SPAN class="title1">BibTex:</SPAN></TD></TR>
+        <TR>
+          <TD><SPAN class="text2">@article{Wang2021DCEN,<BR>author =
+            {Chaoqun Wang and
+               Xuejin Chen and
+               Shaobo Min and
+               Xiaoyan Sun and
+               Houqiang Li},<BR>title = {Task-Independent Knowledge Makes for Transferable Representations
+               for Generalized Zero-Shot Learning},
+			<BR>booktitle={Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2021},<BR>          year = {2021}<BR> pages = {2710--2718}  <BR>        } </SPAN></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD><SPAN class="title1">Downloads:</SPAN></TD></TR>
+        <TR>
+          <TD><SPAN class="text2">Disclaimer: The paper listed on this page is 
+            copyright-protected. By clicking on the paper link below, you 
+            confirm that you or your institution have the right to access the 
+            corresponding pdf file.</SPAN></TD></TR>
+        <TR>
+          <TD>
+            <UL>
+              <LI class="download"><A href="https://ojs.aaai.org/index.php/AAAI/article/view/16375/16182">Paper
+              </A></LI>
+              <LI class="download"><A href="https://github.com/Roxanne-Wang/DCEN">Code</A></LI></UL></TD></TR></TBODY></TABLE>
+      <TABLE width="900" align="center">
+        <TBODY>
+        <TR>
+          <TD>
+            <HR>
+          </TD></TR>
+        <TR>
+          <TD class="copy1">Copyright © 2018 GCL&nbsp;, 
+      USTC</TD></TR></TBODY></TABLE>
+      <P>&nbsp;</P></TD></TR></TBODY></TABLE></BODY></HTML>
